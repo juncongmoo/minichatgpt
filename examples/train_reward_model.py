@@ -2,10 +2,10 @@ import argparse
 
 import loralib as lora
 import torch
-from chatgpt.dataset import RewardDataset
-from chatgpt.nn import BLOOMRM, GPTRM, OPTRM
-from chatgpt.trainer import RewardModelTrainer
-from chatgpt.trainer.strategies import ColossalAIStrategy, DDPStrategy, NaiveStrategy
+from minichatgpt.dataset import RewardDataset
+from minichatgpt.nn import BLOOMRM, GPTRM, OPTRM
+from minichatgpt.trainer import RewardModelTrainer
+from minichatgpt.trainer.strategies import ColossalAIStrategy, DDPStrategy, NaiveStrategy
 from datasets import load_dataset
 from torch.optim import Adam
 from transformers import AutoTokenizer, BloomTokenizerFast

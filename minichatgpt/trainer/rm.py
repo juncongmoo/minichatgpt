@@ -2,8 +2,8 @@ from abc import ABC
 
 import loralib as lora
 import torch
-from chatgpt.dataset import RewardDataset
-from chatgpt.nn import PairWiseLoss
+from minichatgpt.dataset import RewardDataset
+from minichatgpt.nn import PairWiseLoss
 from torch.optim import Adam, Optimizer
 from torch.utils.data import DataLoader
 from tqdm import tqdm

@@ -6,10 +6,10 @@ import pytest
 import torch
 import torch.distributed as dist
 import torch.multiprocessing as mp
-from chatgpt.experience_maker import NaiveExperienceMaker
-from chatgpt.nn import GPTActor, GPTCritic, RewardModel
-from chatgpt.replay_buffer import NaiveReplayBuffer
-from chatgpt.trainer.strategies import ColossalAIStrategy, DDPStrategy
+from minichatgpt.experience_maker import NaiveExperienceMaker
+from minichatgpt.nn import GPTActor, GPTCritic, RewardModel
+from minichatgpt.replay_buffer import NaiveReplayBuffer
+from minichatgpt.trainer.strategies import ColossalAIStrategy, DDPStrategy
 from transformers.models.gpt2.configuration_gpt2 import GPT2Config
 
 from colossalai.testing import rerun_if_address_is_in_use

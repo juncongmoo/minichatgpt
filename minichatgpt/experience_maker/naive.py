@@ -1,5 +1,5 @@
 import torch
-from chatgpt.nn.utils import compute_reward, normalize
+from minichatgpt.nn.utils import compute_reward, normalize
 
 from .base import Experience, ExperienceMaker
 

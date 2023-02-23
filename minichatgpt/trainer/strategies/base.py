@@ -4,8 +4,8 @@ from typing import Any, List, Tuple, Union
 
 import torch
 import torch.nn as nn
-from chatgpt.nn import Actor, Critic, RewardModel
-from chatgpt.replay_buffer import ReplayBuffer
+from minichatgpt.nn import Actor, Critic, RewardModel
+from minichatgpt.replay_buffer import ReplayBuffer
 from torch.optim import Optimizer
 from torch.utils.data import DataLoader
 

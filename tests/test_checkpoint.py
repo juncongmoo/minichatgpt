@@ -7,8 +7,8 @@ import pytest
 import torch
 import torch.distributed as dist
 import torch.multiprocessing as mp
-from chatgpt.nn import GPTActor
-from chatgpt.trainer.strategies import ColossalAIStrategy, DDPStrategy
+from minichatgpt.nn import GPTActor
+from minichatgpt.trainer.strategies import ColossalAIStrategy, DDPStrategy
 from transformers.models.gpt2.configuration_gpt2 import GPT2Config
 
 from colossalai.nn.optimizer import HybridAdam

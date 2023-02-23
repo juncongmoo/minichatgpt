@@ -1,10 +1,10 @@
 from typing import Any, Callable, Dict, List, Optional
 
 import torch.nn as nn
-from chatgpt.experience_maker import Experience, NaiveExperienceMaker
-from chatgpt.nn import Actor, Critic, PolicyLoss, ValueLoss
-from chatgpt.nn.generation_utils import update_model_kwargs_fn
-from chatgpt.replay_buffer import NaiveReplayBuffer
+from minichatgpt.experience_maker import Experience, NaiveExperienceMaker
+from minichatgpt.nn import Actor, Critic, PolicyLoss, ValueLoss
+from minichatgpt.nn.generation_utils import update_model_kwargs_fn
+from minichatgpt.replay_buffer import NaiveReplayBuffer
 from torch.optim import Optimizer
 
 from .base import Trainer

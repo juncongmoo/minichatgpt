@@ -4,10 +4,10 @@ from copy import deepcopy
 import torch
 import torch.distributed as dist
 import torch.nn as nn
-from chatgpt.nn import GPTActor, GPTCritic, RewardModel
-from chatgpt.trainer import PPOTrainer
-from chatgpt.trainer.callbacks import PerformanceEvaluator
-from chatgpt.trainer.strategies import ColossalAIStrategy, DDPStrategy, Strategy
+from minichatgpt.nn import GPTActor, GPTCritic, RewardModel
+from minichatgpt.trainer import PPOTrainer
+from minichatgpt.trainer.callbacks import PerformanceEvaluator
+from minichatgpt.trainer.strategies import ColossalAIStrategy, DDPStrategy, Strategy
 from torch.optim import Adam
 from transformers.models.gpt2.configuration_gpt2 import GPT2Config
 from transformers.models.gpt2.tokenization_gpt2 import GPT2Tokenizer

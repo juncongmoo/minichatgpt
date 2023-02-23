@@ -2,7 +2,7 @@ import random
 from typing import List
 
 import torch
-from chatgpt.experience_maker.base import Experience
+from minichatgpt.experience_maker.base import Experience
 
 from .base import ReplayBuffer
 from .utils import BufferItem, make_experience_batch, split_experience_batch
