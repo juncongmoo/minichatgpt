@@ -1,6 +1,6 @@
 # minichatgpt
 
-> To Train ChatGPT In 5 Minutes
+> 🔥 To Train ChatGPT In 5 Minutes with ColossalAI
 
 ## Install
 
@@ -140,20 +140,20 @@ Thanks so much to all of our amazing contributors!
 
 ## Quick Preview
 <p id="minichatgpt_scaling" align="center">
-<img src="https://raw.githubusercontent.com/hpcaitech/public_assets/main/applications/minichatgpt/minichatgpt%20scaling.png" width=800/>
+<img src="https://raw.githubusercontent.com/hpcaitech/public_assets/main/applications/chatgpt/ChatGPT%20scaling.png" width=800/>
 </p>
 
 - Up to 7.73 times faster for single server training and 1.42 times faster for single-GPU inference
 
 <p id="minichatgpt-1GPU" align="center">
-<img src="https://raw.githubusercontent.com/hpcaitech/public_assets/main/applications/minichatgpt/minichatgpt-1GPU.jpg" width=450/>
+<img src="https://raw.githubusercontent.com/hpcaitech/public_assets/main/applications/chatgpt/ChatGPT-1GPU.jpg" width=450/>
 </p>
 
 - Up to 10.3x growth in model capacity on one GPU
 - A mini demo training process requires only 1.62GB of GPU memory (any consumer-grade GPU)
 
 <p id="inference" align="center">
-<img src="https://raw.githubusercontent.com/hpcaitech/public_assets/main/applications/minichatgpt/LoRA%20data.jpg" width=600/>
+<img src="https://raw.githubusercontent.com/hpcaitech/public_assets/main/applications/chatgpt/LoRA%20data.jpg" width=600/>
 </p>
 
 - Increase the capacity of the fine-tuning model by up to 3.7 times on a single GPU
