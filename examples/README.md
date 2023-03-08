@@ -35,7 +35,7 @@ torchrun --standalone --nproc_per_node=2 train_dummy.py --strategy colossalai
 
 ## Train with real prompt data
 
-We use [awesome-minichatgpt-prompts](https://huggingface.co/datasets/fka/awesome-minichatgpt-prompts) as example dataset. It is a small dataset with hundreds of prompts.
+We use [awesome-minichatgpt-prompts](https://huggingface.co/datasets/fka/awesome-chatgpt-prompts) as example dataset. It is a small dataset with hundreds of prompts.
 
 You should download `prompts.csv` first.
 
